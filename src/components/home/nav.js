@@ -1,16 +1,15 @@
 "use client";
+import { CircleX, Menu } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import { CircleX, Menu } from "lucide-react";
+import { useEffect, useState } from "react";
 const Logo = () => {
   return (
     <div className="flex items-center gap-[20px]">
       <Image
-        src={"/safeer-logo.png"}
+        src={"/safeer-logo.webp"}
         width={100}
         height={100}
         alt="Safeer Logo"
@@ -21,7 +20,7 @@ const Logo = () => {
       <div className="w-[1px] h-[70px] bg-[#fff] bg-opacity-15 hidden lg:block" />
       <div className=" items-center gap-[20px] hidden lg:flex">
         <Image
-          src={"/altaaqa.png"}
+          src={"/altaaqa.webp"}
           width={100}
           height={100}
           alt="Safeer Logo"
@@ -30,7 +29,7 @@ const Logo = () => {
           className="h-[65px] w-auto"
         />
         <Image
-          src={"/totalenergies.png"}
+          src={"/totalenergies.webp"}
           width={100}
           height={100}
           alt="Safeer Logo"
