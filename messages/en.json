@@ -1,0 +1,20 @@
+{
+  "navbar": {
+    "Home": "Home",
+    "About Us": "About Us",
+    "Solar Benefits": "Solar Benefits",
+    "Our Solutions": "Our Solutions",
+    "Contact Us": "Contact Us"
+  },
+  "hero": {
+    "index": "Energizing Our Future with Efficiency & Renewables",
+    "title1": "75%",
+    "content1": "Energy savings",
+    "title2": "30K",
+    "content2": "Tons of CO2 emissions reduced",
+    "title3": "1M ft²",
+    "content3": "Solar installations area",
+    "title4": "85%",
+    "content4": "Sustainable & eco-friendly materials"
+  }
+}
