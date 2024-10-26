@@ -85,7 +85,7 @@ const LanguageToggle = () => {
     const newLocale = locale === "en" ? "ar" : "en";
     setLang(newLocale);
     setTimeout(() => {
-      router.push(`http://localhost:3000/${newLocale}`);
+      router.push(`${process.env.NEXT_PUBLIC_URL}/${newLocale}`);
     }, 100);
   };
 
