@@ -144,7 +144,7 @@ const Links = () => {
 
 const MobileLinks = () => {
   const { LinksData } = returnLinksData();
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="md:hidden">
       <Menu size={30} color="white" onClick={() => setIsOpen(true)} />

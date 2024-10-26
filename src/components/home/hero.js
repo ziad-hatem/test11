@@ -10,13 +10,13 @@ const Features = ({ index }) => {
   const i = index + 1;
 
   return (
-    <div className="w-[100%] sm:w-[50%] lg:w-[25%] h-auto flex justify-between items-end">
+    <div className="w-[50%] lg:w-[25%] max-sm:h-[150px] flex justify-between items-end">
       <div className="w-[1px] h-[90%] bg-[#fff] bg-opacity-15" />
       <div className="mb-[40px]">
         <h1 className="text-[35px] md:text-[calc(2vw_+_30px)] text-center text-white">
           {t(`title${i}`)}
         </h1>
-        <p className="text-[14px] md:text-[12px] lg:text-[16px] text-white text-center">
+        <p className="max-sm:text-[10px] max-sm:h-[40px] max-sm:w-[95%] text-[14px] md:text-[12px] lg:text-[16px] text-white text-center">
           {t(`content${i}`)}
         </p>
       </div>
@@ -41,7 +41,7 @@ const Hero = () => {
         className="absolute top-0 left-0 w-full h-full"
       />
       <div className="relative h-screen z-10">
-        <h1 className="text-[20px] sm:text-[40px] md:text-[calc(2.6vw_+_35px)] relative top-[30vh] md:top-[38vh] w-[95%] md:w-[80%] text-center mx-auto text-white">
+        <h1 className="text-[20px] sm:text-[40px] md:text-[calc(2.6vw_+_35px)] relative top-[38vh] w-[95%] md:w-[80%] text-center mx-auto text-white">
           {t("index")}
         </h1>
         <div className="flex flex-wrap absolute w-full bottom-0">
