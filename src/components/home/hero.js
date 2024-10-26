@@ -13,7 +13,7 @@ const Features = ({ index }) => {
     <div className="w-[50%] lg:w-[25%] max-sm:h-[150px] flex justify-between items-end">
       <div className="w-[1px] h-[90%] bg-[#fff] bg-opacity-15" />
       <div className="mb-[40px]">
-        <h1 className="text-[35px] md:text-[calc(2vw_+_30px)] text-center text-white">
+        <h1 className="text-[20px] md:text-[calc(2vw_+_30px)] text-center text-white">
           {t(`title${i}`)}
         </h1>
         <p className="max-sm:text-[10px] max-sm:h-[40px] max-sm:w-[95%] text-[14px] md:text-[12px] lg:text-[16px] text-white text-center">
